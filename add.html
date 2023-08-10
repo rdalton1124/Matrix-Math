@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'> </link>
+        <title> Add Matrices</title>
+    </head>
+    <body>
+        <form id='sizeForm1' method='get' onsubmit='drawBoxesAddition()'>
+            <label for='x'> Width </label>
+            <input name='x' type='text'/>
+
+            <label for='y'> Height </label>
+            <input name='y' type='text'/>
+            <button id='createMatrix' type='submit'> Create </button>
+        </form>
+        <div id='error'>
+        </div>
+        <form id='matrices' onsubmit="addMatrices()"> 
+            <div id='matrix1'></div>
+            <div id='matrix2'></div>
+            <button id='add' type='submit' style='visibility: hidden'> Add! </button>
+        </form>
+        <table id='sum'> </table>
+        <script type='text/javascript' src='script.js'></script>
+    </body>
+</html>

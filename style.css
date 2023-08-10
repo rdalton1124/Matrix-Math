@@ -1,0 +1,29 @@
+body {
+    background: #232323;
+    color: #eeeeee;
+    font-family: ariel, helvetica, sans-seriff;
+}
+input {
+    padding: 1px;
+    background: #333;
+    color: #eee;
+    border-color:#eeeeee;
+    border-radius: 3px;
+    width: 5em;
+}
+input:focus {
+    background:#555;
+    border-color:#eee;
+    border: solid 2px #eee;
+    width: 5em;
+    outline: none;
+}
+button {
+    background: #333;
+    color: #eee;
+    border-color: #eee;
+}
+#error{
+    color: #AA3030;
+    font-weight:bold;
+}
