@@ -1,8 +1,22 @@
+@media screen and (min-width: 1280px) {
+    body {
+        font-size: 250%;
+    }   
+}
+@media screen and (min-width: 992px) and (max-width:1279px) {
+    body {
+        font-size 200%; 
+    }
+}
+@media screen and (min-width: 768px) {
+    body { 
+        font-size:150%;
+    }
+}
 body {
     background: #232323;
     color: #eeeeee;
     font-family: ariel, helvetica, sans-seriff;
-    font-size: 150%;
 }
 input {
     padding: 1px;
