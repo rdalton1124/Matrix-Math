@@ -25,6 +25,7 @@ body {
     background: #232323;
     color: #eeeeee;
     font-family: ariel, helvetica, sans-seriff;
+    padding: 0px;
 }
 a {
     color:#eeeeee;
@@ -52,12 +53,15 @@ button {
     color: #eee;
     border-color: #eee;
 }
+ul {
+    list-style: none;
+}
 .linkBox {
     border: solid 1px;
     border-color: #eeeeee;
     width: 7em;
     height: 7em;
-    border-radius: 5px;
+    border-radius: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +70,7 @@ button {
     width: 8em;
     height: 8em;
     font-size: 120%;
-    background: #333;
+    background: radial-gradient(circle, #232323, #aaa);
     border-color: #fff;
 }
 .linkBox img{
@@ -81,9 +85,30 @@ button {
     height: 9em;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     border: 1px;
     border-color: white;
 }
+.main {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+.sideBar-right {
+    margin-top: 0px;
+    height: 100%;
+    width: 15%; 
+    float: right;
+    background: radial-gradient(circle, #232323, #555);
+}
+.sideBar-left {
+    margin: 0px;
+    float: left;
+    height: 100%;
+    width: 15%;
+    background: radial-gradient(circle, #232323, #555);
+}
+
 #error{
     color: #AA3030;
     font-weight:bold;
