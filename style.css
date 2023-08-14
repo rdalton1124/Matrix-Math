@@ -55,8 +55,9 @@ button {
     width: 7em;
     height: 7em;
     border-radius: 5px;
-    padding-left: auto; 
-    padding-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .linkBox:hover {
     width: 8em;
@@ -70,7 +71,9 @@ button {
     height: 6em;
     width: 6em;
 }
-
+.linkText {
+    margin: auto;
+}
 .boxRow {
     height: 9em;
     display: flex;
