@@ -38,6 +38,14 @@ button {
     color: #eee;
     border-color: #eee;
 }
+.linkBox {
+    width: 15%; 
+    height: 15%; 
+}
+.linkBox:hover {
+    width: 20%; 
+    height: 20%; 
+}
 #error{
     color: #AA3030;
     font-weight:bold;
