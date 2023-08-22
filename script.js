@@ -22,7 +22,7 @@ function clearArrays() {
 function drawMatrix(num, x, y) {
     "use strict";
     const formID = "matrix" + String(num);
-    document.getElementById(formID).innerHTML += "<h2> Matrix " + String(num) + "</h2>";
+    document.getElementById(formID).innerHTML += "<h2 style='text-decoration: none'> Matrix " + String(num) + "</h2>";
     for (let i = 1; i <= y; i++) {
         for (let j = 1; j <= x; j++) {
             document.getElementById(formID).innerHTML += "<input id='m" + String(num) + "r" + String(j) + "c" + String(i) + "'/>";

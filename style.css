@@ -33,28 +33,29 @@ a {
     display: flex;
     justify-content: center;
 }
-input {
-    padding: 1px;
-    background: #333;
-    color: #eee;
-    border-color:#eeeeee;
-    border-radius: 3px;
-    width: 5em;
-}
-input:focus {
-    background:#555;
-    border-color:#eee;
-    border: solid 2px #eee;
-    width: 5em;
-    outline: none;
-}
-button {
-    background: #333;
-    color: #eee;
-    border-color: #eee;
-}
 ul {
     list-style: none;
+}
+h1 {
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+}
+input {
+    background: #333;
+    color: #eee;
+    border: 1px #eee solid;
+}
+input:focus {
+    background: #555;
+}
+button {
+    border: 1px solid #555555;
+    background: #333;
+    color: #eee;
+}
+button:hover {
+    background: #555;
 }
 .linkBox {
     border: solid 1px;
@@ -113,3 +114,54 @@ ul {
     color: #AA3030;
     font-weight:bold;
 }
+#sizeForm1 {
+    padding: 0px;
+    margin-top: 5%;
+    height: 25%;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+}
+#sizeForm1 label {
+
+}
+#sizeForm1 input {
+    font-size: 1.1em;
+    height: 1.5em;
+    width: 3em;
+    padding: 1px;
+    border-color:#eeeeee;
+    border-radius: 3px;
+    align: center;
+}
+#sizeForm1 input:focus {
+    border: solid 2px #eee;
+    width: 3.3em;
+    outline: none;
+}
+#createMatrix {
+    font-size: 1.1em;
+    width: 15%; 
+    height: 10%;
+}
+#createMatrix:hover {
+    width: 17%;
+}
+#matrices div h2 {
+    font-weight: normal;
+}
+#matrices {
+    margin-top: 0px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#matrices input {
+    font-size: 1.1em;
+    height: 1.5em;
+    width: 3em;
+}
+#matrices button { 
+    font-size: 1.1em;
+    height:1.5em;
+    width: 6em;
+ }
